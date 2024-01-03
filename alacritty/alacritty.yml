@@ -1,0 +1,45 @@
+# live reload
+live_config_reload: true
+
+env:
+  TERM: xterm-256color
+
+# import Catppuccin Theme
+import:
+  - ~/.config/alacritty/catppuccin-mocha.yml
+window:
+  padding:
+    x: 2
+    y: 2
+  opacity: 0.8
+  dynamic_padding: false
+  decoration: buttonless
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+  size: 12
+draw_bold_text_with_bright_colors: true
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/zsh
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
