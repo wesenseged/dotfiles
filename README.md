@@ -1,4 +1,4 @@
-![[Screenshot_20240103_080151.png]]
+[[Screenshot_20240103_080151.png]]
 
 This is my latest Dotfiles for 
 
