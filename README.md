@@ -32,7 +32,7 @@ ___
 
 Clone the repository :
 ```
-git clone https://github.com/wesenseged/dotfiles ~/.config
+git clone https://github.com/wesenseged/dotfiles/. ~/.config
 ```
 
 
